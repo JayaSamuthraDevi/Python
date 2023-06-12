@@ -52,7 +52,7 @@ if __name__ == '__main__':
     print(result)
 
 
-# *args receives tuple
+# *args receives tuple--
 def add_some_numbers(*args):
     print(args)
 
@@ -72,7 +72,7 @@ addNum(1)
 
 
 
-#keyWordArgument
+#keyWordArgument--- values r dictionary
 def addKeyWordArgs(**kwargs):
     print(kwargs)
     for key,value in kwargs.items():
@@ -89,3 +89,8 @@ def addKeyWordArgs(*args,**kwargs):
         print(key,value)
 
 addKeyWordArgs(1,2,num1=2,num2=2)
+
+
+
+
+
