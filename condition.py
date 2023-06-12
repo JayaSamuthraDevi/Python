@@ -26,14 +26,14 @@ c=4.0
 d="str"
 a1={1,2}
 b1={1,2}
-# if a==c:
-#     print("==")
-# elif not a!=d:
-#     print("!=")
-# elif a1==b1:
-#     print("==")
-# else:
-#     print("!=")
+if a==c:
+    print("==")
+elif not a!=d:
+    print("!=")
+elif a1==b1:
+    print("==")
+else:
+    print("!=")
 
 
 #comprehesion
